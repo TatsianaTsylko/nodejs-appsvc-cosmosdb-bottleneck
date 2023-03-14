@@ -11,10 +11,10 @@ pool:
 
 variables:
   webAppName: $(webAppName)
-  serviceConnection: $(serviceConnection)
+  serviceConnection: 'TatsianaTsylko-AzureLoadTesting-00c53b05-acf5-4188-af61-2ad5e4898a3e'
   azureSubscriptionId: '00c53b05-acf5-4188-af61-2ad5e4898a3e'
   loadTestResource: $(loadTestResource)
-  loadTestResourceGroup: $(loadTestResourceGroup)
+  loadTestResourceGroup: 'Jmeter1'
   location: 'EAST US'
 
 

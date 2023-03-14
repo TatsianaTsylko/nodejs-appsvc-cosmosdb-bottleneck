@@ -11,7 +11,7 @@ pool:
 
 variables:
   webAppName: $(webAppName)
-  #serviceConnection: '<Name of your webARM Service connection>'
+  serviceConnection: $(serviceConnection)
   azureSubscriptionId: '00c53b05-acf5-4188-af61-2ad5e4898a3e'
   loadTestResource: $(loadTestResource)
   loadTestResourceGroup: $(loadTestResourceGroup)
